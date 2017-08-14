@@ -1,4 +1,4 @@
-//OG
+
 
 $(document).ready(function(){
 
@@ -60,6 +60,7 @@ $(document).ready(function(){
   });
 });
 
+//usefull logic
 // array[array.length - 1] used to acces the last item in the array
 
 //given
@@ -73,68 +74,3 @@ $(document).ready(function(){
 
 
 
-// blah
-// let memory = "0";
-// let current = "0";
-// let operation = 0;
-// const maxLength= 18;
-//
-// $(".answer").text(current);
-// $("#entry").text(current);
-//
-//
-// $(".number").click(function addDigit(digit){
-//   $(".number") === $(this);
-//   let current = $(this).data('value');
-//   if (current.length > maxLength)
-//     {
-//       current = "woaw there! Digit limit exceeded."
-//     } if ($(".number").data('click',true)){
-//       current = $(this).val();
-//     }
-//     $(".answer").append(current);
-//     $("#entry").append(current);
-//     return addDigit();
-// });
-
-
-
-
-
-
-// function dot() {
-//
-//   if (current.legnth === 0) {
-//       current = "0."
-//   } else if ( current.indexOf(".") === -1) {
-//     current = current + ".";
-//   }
-//   $(".answer").html(current);
-// }
-//
-// function CE() {
-//   current = "0";
-// }
-//
-// function AC() {
-//   current = "0";
-//   operation = 0;
-//   memory = "0";
-//   $(".answer").html(current);
-// }
-//
-// function operate (op) {
-//   if ($("#add").data('clicked',true) && op,indexOf("-") > -1 ) {
-//     current
-//   }
-// }
-
-
-
-
-//
-// $("#ac").click(function ac() {
-//  $(".answer").text(0);
-//  $("#entry").text(0);
-//   return ac();
-// });
