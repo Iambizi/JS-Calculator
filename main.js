@@ -1,5 +1,3 @@
-
-
 $(document).ready(function(){
 
   //stores the inputs from the user to calculate later
@@ -12,6 +10,8 @@ $(document).ready(function(){
   let operators2=["."];
   // numbers for validation
   let nums =[0,1,2,3,4,5,6,7,8,9];
+
+  let screenLimit = 18;
 
   function getValue(input){
     //log out an error mssg in console if theres already another dot before a dot : ..8
@@ -49,6 +49,8 @@ $(document).ready(function(){
     update();
   } else if (this.id === "=") {
     getTotal();
+  } else if (inputs.length > screenLimit) {
+    $(".answer").html('Wooaw dude ! Digit limit exceeded');
   }
   else {
     if(inputs[inputs.length-1].indexOf("+","-","/","*",".") === -1){
@@ -60,17 +62,9 @@ $(document).ready(function(){
   });
 });
 
-//usefull logic
 // array[array.length - 1] used to acces the last item in the array
 
 //given
 // $("button").click(function(){
 //($(this).id
 //} if you click a button it will return the id of the item you clicked
-
-
-
-
-
-
-
