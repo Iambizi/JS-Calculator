@@ -22,6 +22,8 @@ button:hover{
   margin: 0 auto;
   border: #b4b39D solid 2px;
   position: relative;
+  box-shadow: inset 3px 3px #9f9f9f;
+  border-bottom: none;
 }
 
 .answer {
