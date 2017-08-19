@@ -60,7 +60,7 @@ button:active{
 .dot:active {
   box-shadow: 0px 0px;
   top: 240px;
-  transform: translateY(4px);
+  transform: translateY(4px);/*so that when pressed it goes down the y axis by 4px creating that the look of a pressed button along with the shadow effects */
 }
 
 .calculator {
@@ -112,6 +112,7 @@ button:active{
   color:white;
   position:absolute;
   bottom: 0;
+  left: 0;
   box-shadow: 0px 3px #222121, , , ;
   /*since equal btn also has standard class you can add "," that will correspond to the new styles that will cascade down from standard*/
 }
