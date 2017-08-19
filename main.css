@@ -68,7 +68,7 @@ button:active{
  height: 425px;
  width: 300px;
  border-radius:25px;
- margin: 30px auto;
+ margin: 80px auto;
  padding: 20px 20px;
  border: #908b85 solid 2px;
  box-shadow: inset -15px 0 15px -15px black/*right side shadow of calculator*/,inset 0 -15px 15px -15px black /*bottom side shadow of calculator*/, 13px 13px 4px 2px #696969/*outter shadow*/;
